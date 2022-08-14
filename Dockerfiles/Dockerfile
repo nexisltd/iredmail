@@ -1,11 +1,5 @@
-#
-# This file is managed by iRedMail Team <support@iredmail.org> with Ansible,
-# please do __NOT__ modify it manually.
-#
-
-# Run all applications in one container.
 FROM ubuntu:focal
-MAINTAINER Zhang Huangbin <zhb@iredmail.org>
+MAINTAINER Nexis LTD <info@nexisltd.com>
 EXPOSE 80 443 25 465 587 143 993 110 995 4190
 
 ARG ENTRYPOINTS_DIR=/docker/entrypoints
